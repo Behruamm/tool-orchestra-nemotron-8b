@@ -1,0 +1,120 @@
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===========================================
+# Virtual Environments
+# ===========================================
+.venv/
+venv/
+ENV/
+env/
+.env.local
+
+# ===========================================
+# Environment Variables
+# ===========================================
+.env
+.env.*.local
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================================
+# Testing
+# ===========================================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===========================================
+# Type Checking
+# ===========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================================
+# Linting
+# ===========================================
+.ruff_cache/
+
+# ===========================================
+# Cache & Logs
+# ===========================================
+.cache/
+*.log
+logs/
+
+# ===========================================
+# Data & Models (large files)
+# ===========================================
+data/vectorstore/
+data/synthetic/*.json
+!data/synthetic/.gitkeep
+*.faiss
+*.pkl
+*.bin
+
+# ===========================================
+# Reports
+# ===========================================
+reports/*.html
+reports/*.json
+
+# ===========================================
+# OS Files
+# ===========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===========================================
+# Jupyter
+# ===========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===========================================
+# Graph Visualizations
+# ===========================================
+graph.png
+graph.svg
+*.mermaid

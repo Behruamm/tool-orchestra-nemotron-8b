@@ -1,0 +1,35 @@
+# Development dependencies
+# Install with: pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+# ===========================================
+# Testing
+# ===========================================
+pytest>=8.0.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.23.0
+
+# ===========================================
+# Linting & Formatting
+# ===========================================
+ruff>=0.1.0
+mypy>=1.8.0
+pre-commit>=3.6.0
+
+# ===========================================
+# API Server (Optional)
+# ===========================================
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# ===========================================
+# LangSmith Tracing (Optional)
+# ===========================================
+langsmith>=0.1.0
+
+# ===========================================
+# Debugging & Visualization
+# ===========================================
+ipython>=8.0.0
+graphviz>=0.20.0
