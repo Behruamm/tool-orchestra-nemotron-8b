@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "tool-orchestra"
+name = "tool-orchestra-nemotron-8b"
 version = "0.1.0"
 description = "Cost-aware multi-model orchestration framework based on ToolOrchestra paper"
-readme = "PLAN.md"
+readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"
 authors = [{ name = "Your Name", email = "you@example.com" }]
@@ -64,9 +64,9 @@ all = ["tool-orchestra[dev,api,langsmith]"]
 orchestra = "src.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/tool-orchestra"
-Documentation = "https://github.com/yourusername/tool-orchestra#readme"
-Repository = "https://github.com/yourusername/tool-orchestra"
+Homepage = "https://github.com/Behruamm/tool-orchestra-nemotron-8b"
+Documentation = "https://github.com/Behruamm/tool-orchestra-nemotron-8b#readme"
+Repository = "https://github.com/Behruamm/tool-orchestra-nemotron-8b"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]

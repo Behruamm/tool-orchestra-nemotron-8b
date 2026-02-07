@@ -1,4 +1,4 @@
-# Tool Orchestra — Research Agent
+# Tool Orchestra (Nemotron 8B)
 
 Intelligent research agent powered by NVIDIA's Orchestrator-8B model.
 

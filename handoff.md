@@ -47,7 +47,7 @@ The repository is now clean, tested (22 evaluations passing), and ready for open
 ### Recommended Next Steps
 1. Push to GitHub:
    ```bash
-   git remote add origin <url>
+   git remote set-url origin https://github.com/Behruamm/tool-orchestra-nemotron-8b.git
    git push -u origin main
    ```
 2. Verify CI/CD (if applicable).
